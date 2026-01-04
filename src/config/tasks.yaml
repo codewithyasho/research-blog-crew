@@ -1,0 +1,21 @@
+report_task:
+  description: >
+    Generate a detailed report on {topic} using the report generator agent. The report should cover all relevant aspects of the topic.
+    The report should be around 1000 words.
+
+  expected_output: >
+    A comprehensive 1000 words report on {topic}.
+    The report should be well-structured, informative, and engaging.
+
+  agent: report_generator
+
+blog_writing_task:
+  description: >
+    Write an engaging blog post on {topic} using the blog writer agent. The blog post should be informative and captivating for readers.
+    The blog post should be around 800 words.
+
+  expected_output: >
+    An engaging 800 words blog post on {topic}.
+    The blog post should be well-written, accessible, and enjoyable to read.
+
+  agent: blog_writer
