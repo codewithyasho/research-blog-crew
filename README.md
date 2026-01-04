@@ -86,7 +86,7 @@ source venv/bin/activate
 ### Step 3: Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install crewai crewai-tools litellm litellm[proxy] streamlit python-dotenv fastapi
 ```
 
 ### Step 4: Set Up Environment Variables
